@@ -118,3 +118,27 @@ ul {
 .info-item p {
   text-align: center;
 }
+
+.quote {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px;
+  background-color: #15301c;
+  color: white;
+}
+
+.quote blockquote {
+  font-size: 48px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.quote div {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+}
+
