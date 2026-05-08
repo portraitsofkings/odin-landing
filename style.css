@@ -25,11 +25,11 @@ a {
   color: inherit;
 }
 
-button {
-  background-color: #198a42;
-  border: 2px solid #22bd5b;
-  color: inherit;
-}
+/* button { */
+/*   background-color: #198a42; */
+/*   border: 2px solid #22bd5b; */
+/*   color: inherit; */
+/* } */
 
 .hero {
   display: flex;
@@ -79,15 +79,18 @@ button {
   color: #ccc
 }
 
-.hero-heading button {
-  width: 150px;
+.hero-heading a {
+  display: block;
+
+  width: min-content;
 
   padding: 8px 16px;
 
-  /* background-color: #198a42; */
-  /* border: 2px solid #22bd5b; */
-  /* color: inherit; */
   font-weight: bold;
+
+  background-color: #198a42;
+  border: 2px solid #22bd5b;
+  color: inherit;
 }
 
 .hero-image {
@@ -97,11 +100,12 @@ button {
 }
 
 .info {
-  height: 100vh;
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   gap: 24px;
 }
 
@@ -113,6 +117,7 @@ button {
 .info-items {
   display: flex;
   align-items: center;
+
   gap: 75px;
 }
 
@@ -122,8 +127,10 @@ button {
 
 .info-item img {
   width: 200px;
-  border-radius: 32px;
+
   margin-bottom: 8px;
+
+  border-radius: 32px;
 }
 
 .info-item p {
@@ -131,12 +138,14 @@ button {
 }
 
 .quote {
-  height: 100vh;
   display: flex;
   justify-content: center;
+  height: 100vh;
   align-items: center;
   flex-direction: column;
+
   padding: 100px;
+
   background-color: #15301c;
   color: white;
 }
@@ -149,40 +158,44 @@ button {
 
 .quote div {
   align-self: flex-end;
+
   font-size: 24px;
   font-weight: bold;
 }
 
 .action {
-  height: 50vh;
   display: flex;
   justify-content: center;
+  height: 50vh;
   align-items: center;
+
   gap: 16px;
 }
 
 .action-card {
-  background-color: #22bd5b;
-  color: white;
-  padding: 50px;
   display: flex;
   justify-content: space-between;
+
   gap: 32px;
+  padding: 50px;
+
   border-radius: 32px;
+  background-color: #22bd5b;
+  color: white;
 }
 
-.action button {
-  border-radius: 16px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.action button a {
-  padding: 8px 16px;
+.action a {
   display: flex;
   height: 100%;
   align-items: center;
-  border-radius: inherit;
+  
+  padding: 8px 16px;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  border-radius: 32px;
+  background-color: #198a42;
 }
 
 .footer {
