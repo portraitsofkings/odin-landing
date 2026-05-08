@@ -20,6 +20,17 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background-color: #198a42;
+  border: 2px solid #22bd5b;
+  color: inherit;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -73,9 +84,9 @@ ul {
 
   padding: 8px 16px;
 
-  background-color: #198a42;
-  border: 2px solid #22bd5b;
-  color: inherit;
+  /* background-color: #198a42; */
+  /* border: 2px solid #22bd5b; */
+  /* color: inherit; */
   font-weight: bold;
 }
 
@@ -142,3 +153,34 @@ ul {
   font-weight: bold;
 }
 
+.action {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.action-card {
+  background-color: #22bd5b;
+  color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  border-radius: 32px;
+}
+
+.action button {
+  border-radius: 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action button a {
+  padding: 8px 16px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  border-radius: inherit;
+}
