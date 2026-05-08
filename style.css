@@ -85,3 +85,36 @@ ul {
   border: 2px solid #22bd5b;
 }
 
+.info {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.info-heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.info-items {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+.info-item {
+  flex-basis: 200px;
+}
+
+.info-item img {
+  width: 200px;
+  border-radius: 32px;
+  margin-bottom: 8px;
+}
+
+.info-item p {
+  text-align: center;
+}
